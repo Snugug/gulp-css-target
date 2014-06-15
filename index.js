@@ -59,7 +59,7 @@ var findTargets = function (file) {
 //////////////////////////////
 // Export gulp-toolkit
 //////////////////////////////
-module.exports = function (options) {
+module.exports.target = function (options) {
   var stream = new transform({ objectMode: true });
 
   stream._transform = function (file, unused, done) {
@@ -73,8 +73,6 @@ module.exports = function (options) {
     var targets = findTargets(String(file.contents));
     var base = options !== undefined && options.base !== undefined && typeof options.base === 'string' ? options.base : file.base;
         base = base.charAt(base.length - 1) !== '/' ? base += '/' : base;
-
-    console.log(base);
 
     for (var i in targets.files) {
       var filename = _s.slugify(i) + '.css';
