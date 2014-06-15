@@ -1,5 +1,5 @@
 {
-  "name": "gulp-toolkit",
+  "name": "gulp-css-toolkit",
   "version": "0.1.0",
   "description": "Gulp helpers for Toolkit (http://github.com/team-sass/toolkit)",
   "main": "index.js",
@@ -21,9 +21,9 @@
   "author": "Sam Richard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Snugug/gulp-toolkit/issues"
+    "url": "https://github.com/Snugug/gulp-css-toolkit/issues"
   },
-  "homepage": "https://github.com/Snugug/gulp-toolkit",
+  "homepage": "https://github.com/Snugug/gulp-css-toolkit",
   "dependencies": {
     "chalk": "^0.4.0",
     "fs-extra": "^0.9.1",
