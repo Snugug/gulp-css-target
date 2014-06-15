@@ -59,7 +59,7 @@ var findTargets = function (file) {
 //////////////////////////////
 // Export gulp-toolkit
 //////////////////////////////
-module.exports.target = function (options) {
+module.exports = function (options) {
   var stream = new transform({ objectMode: true });
 
   stream._transform = function (file, unused, done) {
