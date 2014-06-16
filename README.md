@@ -6,7 +6,7 @@ Break a CSS file down into multiple targets allowing for better targeting and pe
 ## Installation
 
 ```bash
-npm install --save gulp-css-target
+npm install --save-dev gulp-css-target
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ npm install --save gulp-css-target
 
 ### JavaScript
 ```javascript
-var target = require('../index.js');
+var target = require('gulp-css-target');
 
 // Same Directory
 gulp.task('target', function () {
