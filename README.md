@@ -1,7 +1,7 @@
 gulp-css-target
 ============
 
-Break a CSS file down into multiple targets allowing for better targeting and performance. See the `test` directory for a working example.
+Break a CSS file down into multiple targets allowing for better targeting and performance. See the `test` directory for a working example, or read about [**gulp-css-target** on my blog](http://snugug.com/musings/target-your-css/).
 
 ## Installation
 
